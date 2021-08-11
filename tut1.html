@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            height: auto;
+            background-image: linear-gradient(yellow 10%,green 85%);
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            background-attachment: fixed;
+        }
+        h1{
+            text-align: center;
+            text-shadow: 2px 2px 5px black;
+        }
+        div.mylogin{
+            display: block;
+            text-align: center;
+        }
+        form{
+            display: inline-block;
+            text-align: center;
+            border: solid black 2px;
+            width: 30%;
+            border-radius: 5px;
+            margin-left:auto;
+            margin-right: auto;
+            padding: 50px;
+            background-image: linear-gradient(orange 10%, blue 85%);
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to Hackerearth!</h1>
+    <div class="mylogin">
+        <form action="">
+        <p>
+            <label for="username">Username</label>
+            <input type="text" placeholder="Type ur name" id="username">
+        </p>
+        <p>
+            <label for="password">Pasword</label>
+            <input type="password" placeholder="Type ur password" id="password">
+        </p>
+        <p>
+            <input type="submit" name="clickme" id="clickme" value="login">
+        </p>
+    </form>
+    </div>
+</body>
+</html>
