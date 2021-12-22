@@ -1,10 +1,10 @@
-var speed=1000;
+let speed=1000;
 
 speed_var.addEventListener("input",vis_speed);
 
 function vis_speed()
 {
-    var array_speed=speed_var.value;
+    let array_speed=speed_var.value;
     switch(parseInt(array_speed))
     {
         case 1: speed=1;
@@ -22,8 +22,8 @@ function vis_speed()
     delay_time=10000/(Math.floor(array_size/10)*speed);        //Decrease numerator to increase speed.
 }
 
-var delay_time=10000/(Math.floor(array_size/10)*speed);        //Decrease numerator to increase speed.
-var c_delay=0;//This is updated ov every div change so that visualization is visible.
+let delay_time=10000/(Math.floor(array_size/10)*speed);        //Decrease numerator to increase speed.
+let c_delay=0;//This is updated ov every div change so that visualization is visible.
 
 function div_update(cont,height,color)
 {
